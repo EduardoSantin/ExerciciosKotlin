@@ -35,17 +35,22 @@ fun main(args: Array<String>){
 
     // descomentar aki e as function no Cancelamento.kt por causa do companion object
 //    1 - Número de cancelamentos por classificação do cliente, ordenado pelo maior número DESC
+    println("1 - Número de cancelamentos por classificação do cliente, ordenado pelo maior número DESC")
     Cancelamento.getNumeroDeCancelamentosPorClassificacao(linhas)
 
 //    2 - Média de tempo de vida(dias entre início e cancelamento)
-//    Cancelamento.getMediaVida(linhas)
+    println("2 - Média de tempo de vida(dias entre início e cancelamento)")
+    Cancelamento.getMediaVida(linhas)
 
 //    3 - Número de cancelamentos por motivo de cancelamento, ordenado pelo maior número DESC
-//    Cancelamento.getNumeroDeCancelamentosPorMotivo(linhas)
+    println("3 - Número de cancelamentos por motivo de cancelamento, ordenado pelo maior número DESC")
+    Cancelamento.getNumeroDeCancelamentosPorMotivo(linhas)
 
 //    4 - Quantidade de usuários cancelados por mês/ano, ordenado pelo mes/ano ASC
-//        Cancelamento.getQuantidadeUsuariosCanceladosPorMes(linhas)
+    println("4 - Quantidade de usuários cancelados por mês/ano, ordenado pelo mes/ano ASC")
+    Cancelamento.getQuantidadeUsuariosCanceladosPorMes(linhas)
 
 //    5 - Quantidade de clientes cancelados por usuário responsável, ordenado por número DESC
-//        Cancelamento.getQuantidadeCanceladosPorUsuario(linhas)
+    println("5 - Quantidade de clientes cancelados por usuário responsável, ordenado por número DESC")
+    Cancelamento.getQuantidadeCanceladosPorUsuario(linhas)
 }

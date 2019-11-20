@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="963ed9a6-ea83-4b93-99cf-c6bdee9cbaa7" name="Default Changelist" comment="" />
+    <list default="true" id="963ed9a6-ea83-4b93-99cf-c6bdee9cbaa7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getQuantidadeCanceladosPorUsuario$$inlined$sortedByDescending$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getQuantidadeCanceladosPorUsuario$$inlined$sortedByDescending$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/cancelamentos.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unoesc/Cancelamento.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unoesc/Cancelamento.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/unoesc/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unoesc/Main.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1SwUKVTTpTwWX5bG3sPhj9g4Qsq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -73,5 +83,18 @@
       <updated>1572474087562</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

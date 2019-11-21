@@ -18,7 +18,6 @@ class Cancelamento constructor(
     }
 
 
-    // descomentar e comentar cada companion object para executar
     //    1 - Número de cancelamentos por classificação do cliente, ordenado pelo maior número DESC
     companion object {
         fun getNumeroDeCancelamentosPorClassificacao(cancelamentos: List<Cancelamento>) {
@@ -35,11 +34,17 @@ class Cancelamento constructor(
     var cont = 0
     var dias = 0
         fun getMediaVida(cancelamentos: List<Cancelamento>) {
-            val diaInicio = cancelamentos.groupBy { it.data_inicio }
-            val diaFim = cancelamentos.groupBy { it.data_cancelamento }
-            print(diaInicio)
-            print(" - ")
-            println(diaFim)
+            cancelamentos.forEach() {
+                val dataInicio = it.data_inicio
+                val dataCancelamento = it.data_cancelamento
+
+//                dias = dataInicio.until(dataCancelamento, )
+                println(dataInicio)
+                println(dataCancelamento)
+                println("---------")
+
+
+            }
         }
 
 

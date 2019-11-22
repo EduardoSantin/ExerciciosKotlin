@@ -55,8 +55,19 @@ class Cancelamento constructor(
         }
 
 //    4 - Quantidade de usuários cancelados por mês/ano, ordenado pelo mes/ano ASC
+        // com ajuda dum pia bixão
         fun getQuantidadeUsuariosCanceladosPorMes(cancelamentos: List<Cancelamento>){
+            val cancel = cancelamentos.groupBy { it.data_cancelamento.withDayOfMonth(1) }
 
+            cancel.toList().sortedBy { (key, value) -> key  }.toMap().forEach {
+
+                val ano = it.key.year
+                val mes = it.key.month
+                var count = it.value.count()
+
+                println("" + mes + "/" + ano + " = " + count)
+
+            }
         }
 
 //    5 - Quantidade de clientes cancelados por usuário responsável, ordenado por número DESC

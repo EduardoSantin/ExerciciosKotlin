@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="963ed9a6-ea83-4b93-99cf-c6bdee9cbaa7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getNumeroDeCancelamentosPorClassificacao$$inlined$sortedByDescending$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getNumeroDeCancelamentosPorClassificacao$$inlined$sortedByDescending$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getNumeroDeCancelamentosPorMotivo$$inlined$sortedByDescending$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getNumeroDeCancelamentosPorMotivo$$inlined$sortedByDescending$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getQuantidadeCanceladosPorUsuario$$inlined$sortedByDescending$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getQuantidadeCanceladosPorUsuario$$inlined$sortedByDescending$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/META-INF/helloWorld.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getNumeroDeCancelamentosPorClassificacao$$inlined$sortedByDescending$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getNumeroDeCancelamentosPorMotivo$$inlined$sortedByDescending$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion$getQuantidadeCanceladosPorUsuario$$inlined$sortedByDescending$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/helloWorld/br/edu/unoesc/Cancelamento.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/unoesc/Cancelamento.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unoesc/Cancelamento.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/unoesc/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/unoesc/Main.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

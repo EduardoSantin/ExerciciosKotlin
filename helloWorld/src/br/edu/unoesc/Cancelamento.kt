@@ -1,6 +1,10 @@
 package br.edu.unoesc
 
 import java.time.LocalDate
+import java.time.chrono.ChronoLocalDate
+import java.time.chrono.ChronoPeriod
+import java.time.temporal.ChronoUnit
+import kotlin.math.roundToLong
 
 class Cancelamento constructor(
    val cliente_id: Long,
@@ -31,20 +35,12 @@ class Cancelamento constructor(
 
 
 //    2 - Média de tempo de vida(dias entre início e cancelamento)
-    var cont = 0
-    var dias = 0
         fun getMediaVida(cancelamentos: List<Cancelamento>) {
-            cancelamentos.forEach() {
-                val dataInicio = it.data_inicio
-                val dataCancelamento = it.data_cancelamento
-
-//                dias = dataInicio.until(dataCancelamento, )
-                println(dataInicio)
-                println(dataCancelamento)
-                println("---------")
-
-
+            val todosDias = ArrayList<Long>()
+            cancelamentos.forEach {
+                todosDias.add(ChronoUnit.DAYS.between(it.data_inicio, it.data_cancelamento))
             }
+                println("Media " + todosDias.average())
         }
 
 
